@@ -19,7 +19,7 @@ class TeamFactory extends Factory
             //
             'team_code' => $this -> faker->word(),
             'team_name' => $this -> faker->word(),
-            'country' => $this ->faker->countryCode(),
+            'country' => $this ->faker->country(),
             'achievements' =>$this ->faker->word(),
             'coach' => $this->faker->name()
         ];
