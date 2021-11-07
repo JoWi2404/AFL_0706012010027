@@ -12,9 +12,8 @@
 
 <body>
     @include('layout.navigation')
-    <div class="container">
-
-        <h2> Welcome Home </h2>
+    <div class="mt-4 p-5 bg-secondary text-white rounded">
+        <h2> Welcome To The Website </h2>
         <p> In here you will be able to create list of Tennis Teams and add tennis players and see which team are they in.</p>
     </div>
 </body>

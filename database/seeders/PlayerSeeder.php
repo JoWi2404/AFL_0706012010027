@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
+use App\Models\Player;
 
 class PlayerSeeder extends Seeder
 {
@@ -15,7 +16,7 @@ class PlayerSeeder extends Seeder
     public function run()
     {
         //
-        
+        Player::factory()->count(50)->create();
        
     }
 }
